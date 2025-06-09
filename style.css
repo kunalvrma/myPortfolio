@@ -379,6 +379,40 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  max-width: 500px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.testimonial-img {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial-caption {
+  font-style: italic;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
 
 /* CONTACT */
 
